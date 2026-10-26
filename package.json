@@ -5,8 +5,8 @@
   "scripts": {
     "dev": "wrangler dev",
     "deploy": "wrangler deploy",
-    "db:migrate": "wrangler d1 execute banks-db --file=./migrations/0001_init.sql",
-    "db:migrate:local": "wrangler d1 execute banks-db --local --file=./migrations/0001_init.sql",
+    "db:migrate": "wrangler d1 execute banks-mfs --file=./migrations/0001_init.sql",
+    "db:migrate:local": "wrangler d1 execute banks-mfs --local --file=./migrations/0001_init.sql",
     "assets:optimize": "python3 scripts/optimize_assets.py",
     "assets:upload": "bash scripts/upload_to_r2.sh",
     "cf-typegen": "wrangler types"

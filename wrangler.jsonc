@@ -9,7 +9,7 @@
   "d1_databases": [
     {
       "binding": "DB",
-      "database_name": "banks-db",
+      "database_name": "banks-mfs",
       "database_id": "63db858a-1756-4416-87f9-03d25c3c8fdb"
     }
   ],
