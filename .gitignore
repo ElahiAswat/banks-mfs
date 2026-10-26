@@ -1,0 +1,17 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Cloudflare Wrangler
+.wrangler/
+.dev.vars
+
+# Build output
+dist/
+!dist/assets/
+
+# Environment and system files
+.DS_Store
+*.log
+.env
+.env.local
